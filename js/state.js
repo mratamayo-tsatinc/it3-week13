@@ -116,7 +116,7 @@ const DEFAULT_APP_SETTINGS = Object.freeze({
   timerMinutes: 120,
   shell: DEFAULT_SHELL_SETTINGS,
   practice: Object.freeze({
-    interactionMode: 'guided', // guided | strict-sequence
+    interactionMode: 'strict-sequence', // guided | strict-sequence
     manualResponses:Object.freeze({mode:'profile',namedValueRate:50,operatorRate:50})
   }),
   exam: Object.freeze({
